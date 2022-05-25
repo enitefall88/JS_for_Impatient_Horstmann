@@ -1,0 +1,11 @@
+{
+  "name": "Modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "simple-statistics": "^7.7.5"
+  }
+}
