@@ -4,7 +4,7 @@ import {encrypt} from "./Caesar_Cypher/caesar.mjs"
 // the log level, and a function to set the threshold.
 const threshold = 55
 
-function logger(message, threshold) {
+export default function logger(message, threshold) {
   if (message.length < threshold) {
     let encryptedLog = encrypt(message,2)
     console.log(message, encryptedLog)
@@ -17,4 +17,4 @@ function justIs() {
   console.log("Here")
 }
 
-export {logger, threshold, justIs}
+export  { threshold, justIs}
